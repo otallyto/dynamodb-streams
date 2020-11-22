@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "dynamodb-streams"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1teu9mo5tnz4e"
+s3_prefix = "dynamodb-streams"
+region = "us-east-1"
+profile = "otallyto"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
